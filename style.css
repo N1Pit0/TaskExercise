@@ -11,13 +11,6 @@
     
 }
 
-
-.group {
-    width: 400px;
-    margin-bottom: 10px;
-}
-
-
 input[type="text"],input[type="email"],
 input[type="password"],input[type="range"]{
     width: 400px;
@@ -26,11 +19,6 @@ input[type="password"],input[type="range"]{
     border-radius: 5px;
     padding: 0.5rem 0.7rem;
 }
-
-.group{
-    width: 400px;
-}
-
 
 label{
     display: block;
@@ -46,6 +34,7 @@ button{
     color: white;
     width: 430px;
     height: 30px;
+    margin-top: 10px;
 }
 
 button:hover{
@@ -81,4 +70,5 @@ input[type="checkbox"]{
     width: 430px;
     height: 30px;
 }
+
 
