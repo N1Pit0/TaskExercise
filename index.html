@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <form >
+        <h1>Form</h1>
+
+        <div class = "group name">
+            <label for="name">Name</label>
+            <input type="text" id="name" required minlength="3">
+        </div>
+
+        <div class="group email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+
+        <div class="group password">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+
+        <div class="group confirmPassword">
+            <label for="confirmPassword">ConfirmPassword</label>
+            <input type="password" name="password" id="confirmPassword" required>
+        </div>
+        
+        <div class="label1">
+            <label for="">Gender:</label>
+        </div>        
+
+        <div class = "checkbox">
+
+            <input type="checkbox" id = "male" name="male">
+            
+            <input type="checkbox" id = "female" name="female">
+            
+
+            <input type="checkbox" id = "other" name="other">
+            
+
+        </div>
+
+        <div class = gender>
+            <label for="male" class="std">Male</label> 
+            <label for="female" class="std">Female</label>
+            <label for="other" class="std">Other</label>
+        </div>
+
+      
+
+        <div class="label2">
+            <label for="">Interest:</label>
+        </div>
+
+        <div class = "hh checkbox">
+
+            <input type="checkbox" id = "sports" name="sports">
+            
+
+            <input type="checkbox" id = "music" name="music">
+            
+
+            <input type="checkbox" id = "travel" name="travel">
+            
+
+        </div>
+
+        <div class = "hh interest">
+
+            <label for="sports" class="std">Sports</label> 
+            <label for="music" class="std">Music</label>
+            <label for="travel" class="std">Travel</label>
+
+        </div>
+        
+
+
+        <div class="dropList">
+            <select name="country" id="country">
+                <option value="GE">Georgia</option>
+                <option value="USA">Unatied States</option>
+                <option value="CA">Canada</option>
+                <option value="CHD">Chad</option>
+            </select>
+        </div>
+
+        <div class="slideContainer">
+            <label for="myRange">Choose a value:</label>
+            <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+        </div>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+    </div>
+
+    
+    
+</body>
+</html>
